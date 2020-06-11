@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "marika";
+    src: url(fonts/Oswald/Oswald-Light.ttf);
+    font-weight: 200;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&display=swap');
+
+html {
+ 
+}
+
+h1 {
+    color: rgb(122, 72, 72);
+    font-family: "marika";
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#bio-header {
+    color: brown;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#skills-header {
+    color: chartreuse;
+
+}
+
+.content {
+    color: gray;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 20px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 20px 30px 40px;
+    border: dashed 2px yellowgreen;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img-div {
+    background-color: lightblue;
+}
+.img-div-dark {
+    background-color: darkblue;
+}
+
+img {
+width: 14%;
+box-shadow: 3px 3px 7px grey;
+margin: 1%;
+}
+
+#img-1 {
+    position: fixed;
+    top: 110px;
+    left: 10px;
+}
